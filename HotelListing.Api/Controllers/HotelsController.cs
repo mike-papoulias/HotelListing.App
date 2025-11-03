@@ -13,6 +13,7 @@ namespace HotelListing.Api.Controllers
         {
             new Hotel {Id = 1, Name = "Hotel California", Address = "42 Sunset Blvd, Los Angeles, CA", Rating = 4.5 },
             new Hotel {Id = 2, Name = "The Grand Budapest", Address = "1 Republic Square, Zubrowka", Rating = 4.8 },
+
         };
 
         // GET: api/<HotelsController>
