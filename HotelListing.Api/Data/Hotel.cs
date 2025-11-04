@@ -9,5 +9,8 @@
         public string Address { get; set; }
 
         public double Rating { get; set; }  
+
+        public int CountryId { get; set; }
+        public Country? Country { get; set; }
     }
 }
